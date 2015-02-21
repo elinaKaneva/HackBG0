@@ -57,6 +57,8 @@ f1 = FileLogger(1, "line 1")
 f1.log()
 f2 = FileLogger(2, "line 2")
 f2.log()
+f3 = FileLogger(3, "line 3")
+f3.log()
 
 h = HTTPLogger(3, "test 3")
 h.log()
